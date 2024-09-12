@@ -5,7 +5,7 @@ A simple Python script to log in to Facebook, search for a topic, and retrieve p
 
 ## Requirements
 
-- Python 3.7+
+- Python 3.x
 - `playwright`
 - `python-dotenv`
 
@@ -21,7 +21,7 @@ A simple Python script to log in to Facebook, search for a topic, and retrieve p
 2. **Create and activate a virtual environment:**
 
     ```bash
-    python -m venv .venv
+    python3 -m venv .venv
     source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
     ```
 
@@ -53,7 +53,7 @@ A simple Python script to log in to Facebook, search for a topic, and retrieve p
 1. **Run the scraper:**
 
     ```bash
-    python facebook_scraper.py
+    python3 facebook_scraper.py
     ```
 
 2. **The script will:**
@@ -66,11 +66,10 @@ A simple Python script to log in to Facebook, search for a topic, and retrieve p
 - Ensure you comply with Facebook's terms of service and privacy policies.
 - The script interacts with the Facebook web interface, which may change over time and affect the script's functionality.
 
+## In Progress
+
+This project is currently a work in progress. Contributions and improvements are welcome! Feel free to submit issues or pull requests.
+
 ## Contact
 
 For any questions or issues, please contact [ibrahim.elghali@outlook.com](mailto:ibrahim.elghali@outlook.com).
-
-```
-
-
-
