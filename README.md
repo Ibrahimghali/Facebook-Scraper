@@ -1,8 +1,13 @@
-```markdown
 # Facebook Scraper
 
-A simple Python script to log in to Facebook, search for a topic, and retrieve post content and reactions using Playwright.
+**Facebook Scraper** is a Python script designed to automate the process of logging into Facebook, searching for specific topics, and retrieving post content along with reactions, comments, and shares using the Playwright framework. This project demonstrates how to use Playwright for web scraping and automation tasks.
 
+## Features
+
+- Log in to Facebook securely using environment variables for credentials.
+- Search for topics and filter results by date.
+- Retrieve and display post content, reactions, comments, and shares.
+- Handles dynamic content loading and pagination.
 ## Requirements
 
 - Python 3.x
