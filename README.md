@@ -68,7 +68,7 @@ A simple Python script to log in to Facebook, search for a topic, and retrieve p
 
 ## Contact
 
-For any questions or issues, please contact [ibrahim.elghali@outlook.com(mailto:ibrahim.elghali@outlook.com).
+For any questions or issues, please contact [ibrahim.elghali@outlook.com](mailto:ibrahim.elghali@outlook.com).
 
 ```
 
