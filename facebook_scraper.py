@@ -2,12 +2,13 @@ from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeo
 import time
 import os
 from dotenv import load_dotenv
-load_dotenv()
-
 
 # Load environment variables if using a .env file
-from dotenv import load_dotenv
 load_dotenv()
+
+# Define constants
+DATE_FILTER = "2024"
+TOPIC = "usa"
 
 # Define the scroll function
 def scroll_to_next_post(page, last_post_selector):
@@ -46,7 +47,7 @@ def login_to_facebook(email: str, password: str, topic: str):
             browser.close()
             return
         
-        search_topic(page, topic, "2024")
+        search_topic(page, topic, DATE_FILTER)
         if not navigate_to_first_post(page):
             browser.close()
             return
@@ -217,7 +218,7 @@ def main():
         print("Email or password environment variables not set.")
         return
 
-    login_to_facebook(email, password, "usa")
+    login_to_facebook(email, password, TOPIC)
 
 if __name__ == "__main__":
     main()
