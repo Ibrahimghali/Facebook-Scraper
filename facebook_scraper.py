@@ -35,6 +35,7 @@ def login_facebook(email: str, password: str, topic: str):
         browser = p.chromium.launch(headless=False, slow_mo=100)
         page = browser.new_page()
         
+        page.set_viewport_size({"width": 1920, "height": 1080})  # Set viewport size to maximize
         # Navigate to Facebook login page
         page.goto("https://www.facebook.com/")
         page.get_by_placeholder("Email or phone number").fill(email)
