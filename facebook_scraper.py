@@ -22,7 +22,7 @@ def scroll_to_next_post(page, last_post_selector):
         if current_posts_count > previous_posts_count:
             break
 
-def login_facebook(email: str, password: str, topic: str):
+def login_to_facebook(email: str, password: str, topic: str):
     """
     Logs in to Facebook, searches for a topic, and retrieves post content and reactions.
     
@@ -217,7 +217,7 @@ def main():
         print("Email or password environment variables not set.")
         return
 
-    login_facebook(email, password, "usa")
+    login_to_facebook(email, password, "usa")
 
 if __name__ == "__main__":
     main()
