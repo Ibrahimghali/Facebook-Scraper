@@ -19,7 +19,7 @@
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/yourusername/Facebook-Scraper.git
+    git clone https://github.com/Ibrahimghali/Facebook-Scraper.git
     cd Facebook-Scraper
     ```
 
